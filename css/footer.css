@@ -13,11 +13,9 @@ footer {
 footer p,
 a {
     font-size: 12px;
-    font-family: 'Roboto', sans-serif;
 }
 
 footer h6 {
-    font-family: 'Playfair Display', serif;
     margin-bottom: 40px;
     position: relative;
 }
@@ -33,7 +31,7 @@ footer h6:after {
 }
 
 .btn-footer {
-    color: grey;
+    color: #ffffff;
     text-decoration: none;
     border: 1px solid;
     border-radius: 43px;
@@ -70,7 +68,7 @@ footer h6:after {
 }
 
 .social .fa {
-    color: grey;
+    color: #ffffff;
     font-size: 22px;
     padding: 10px 15px;
     background: #3c3c3c;
@@ -87,8 +85,14 @@ footer ul {
 
 footer ul li a {
     text-decoration: none;
-    color: grey;
+    color: #ffffff;
     text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: 233ms all ease-in-out;
+    -webkit-transition: 233ms all ease-in-out;
+    -moz-transition: 233ms all ease-in-out;
+    -ms-transition: 233ms all ease-in-out;
+    -o-transition: 233ms all ease-in-out;
 }
 
 a:hover {
