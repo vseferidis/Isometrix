@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $.get("html/header.html", function(data) {
+    $.get("header.html", function(data) {
         $("#header").html(data);
     });
-    $.get("html/footer.html", function(data) {
+    $.get("footer.html", function(data) {
         $("#footer").html(data);
     });
 });
