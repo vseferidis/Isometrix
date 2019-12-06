@@ -18,21 +18,17 @@
 <body class="">
     <!-- header area -->
     <header id="header" class="header ">
-    <?php
-        include 'html/header.html';
-		?>
+    <?php include 'html/header.html'; ?>
 		</header>
     <main class="main ">
         <div class="row main-wrapper">
-
+    
         </div>
     </main>
 
     <!-- footer area -->
     <footer id="footer" class="footer"> 
-    <?php
-        include 'html/footer.html';
-		?>
+    <?php include 'html/footer.html'; ?>
 		</footer>
 
 
